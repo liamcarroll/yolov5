@@ -1,0 +1,6 @@
+train: [../2021-ca4021-carrol36/data/train/images/MVI_20011, ../2021-ca4021-carrol36/data/train/images/MVI_20012]
+val: ../2021-ca4021-carrol36/data/train/images/MVI_20032
+
+nc: 1
+
+names: ['vehicle']
