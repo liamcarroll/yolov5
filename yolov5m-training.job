@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH -p compute    # which partition to run on ('compute' is default)
 #SBATCH -J yolov5m-training    # arbitrary name for the job (you choose)
-#SBATCH --gres=gpu:tesla:{2}
+#SBATCH --gres=gpu[:2]
 #SBATCH --cpus-per-task=4    # tell Slurm how many CPU cores you need, if different from default; your job won't be able to use more than this
 #SBATCH --mem=0    # how much RAM you need (30GB in this case), if different from default; your job won't be able to use more than this
 
