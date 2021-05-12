@@ -1,0 +1,5 @@
+/var/lib/slurm-llnl/slurmd/job124465/slurm_script: line 12: fg: no job control
+/var/lib/slurm-llnl/slurmd/job124465/slurm_script: line 13: fg: no job control
+import-im6.q16: unable to open X server `' @ error/import.c/ImportImageCommand/360.
+/var/lib/slurm-llnl/slurmd/job124465/slurm_script: line 18: syntax error near unexpected token `python'
+/var/lib/slurm-llnl/slurmd/job124465/slurm_script: line 18: `python train.py --img 960 --batch 64 --epochs 5 --data uadetrac-training.yaml --weights yolov5m.pt'
