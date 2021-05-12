@@ -8,11 +8,4 @@
 # Uncomment the following to get a log of memory usage; NOTE don't use this if you plan to run multiple processes in your job and you are placing "wait" at the end of the job file, else Slurm won't be able to tell when your job is completed!
 # vmstat -S M {interval_secs} >> memory_usage_$SLURM_JOBID.log &
 
-# Your commands here
-%load_ext tensorboard
-%tensorboard --logdir runs/train
-
-import wandb
-wandb.login()
-
 python train.py --img 960 --batch 64 --epochs 5 --data uadetrac-training.yaml --weights yolov5m.pt
